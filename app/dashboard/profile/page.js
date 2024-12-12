@@ -92,7 +92,7 @@ export default function ProfilePage() {
           ) : (
             <p className={styles.noPostsMessage}>
               {" "}
-              You haven't created any posts yet. Start by creating your first
+              You havent created any posts yet. Start by creating your first
               post!{" "}
             </p>
           )}{" "}

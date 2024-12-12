@@ -6,7 +6,7 @@ import styles from "@/app/dashboard.module.css";
 const fetchCollectibles = async () => [
   {
     id: 1,
-    name: "Ahsoka (Deluxe Version)",
+    name: "Ahsoka Tano(Deluxe Version)",
     imageUrl:
       "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912661/ahsoka-tano_star-wars_gallery_6557913b62bb7.jpg",
     description: "Cannot wait to get her in the mail",
