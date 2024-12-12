@@ -1,0 +1,124 @@
+.avatar {
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  height: 120px;
+  margin-bottom: 1rem;
+  width: 120px;
+}
+
+.loadingContainer {
+  align-items: center;
+  color: #333;
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.noPostsMessage {
+  color: #666;
+  font-size: 1.1rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.postBrand,
+.postManufacturer,
+.postType {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0.2rem 0;
+}
+
+.postDescription {
+  color: #555;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.postImage {
+  background: #eee;
+  border-bottom: 5px solid #990000;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  width: 100%;
+}
+
+.postImage:hover {
+  transform: scale(1.05);
+}
+
+.postInfo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.postRow {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.postRow:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(193, 9, 9, 0.2);
+}
+
+.postTitle {
+  color: #222;
+  font-size: 1.25rem;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.postsRows {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+
+.postsSection {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.sectionTitle {
+  color: #261515;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.userBio {
+  color: #555;
+  font-size: 1rem;
+  max-width: 600px;
+}
+
+.userInfo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.userName {
+  color: #333;
+  font-size: 1.8rem;
+  margin: 0.5rem 0;
+}

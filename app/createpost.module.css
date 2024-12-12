@@ -1,0 +1,113 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.formContainer {
+  animation: slideIn 1s ease-out;
+  background-color: #f1cbcb;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  text-align: left;
+  width: calc(100% - 4rem);
+}
+
+.imagePreview {
+  animation: fadeIn 1.5s ease-in;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.input,
+.textarea,
+.select {
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+  border-color: #990000;
+  box-shadow: 0 0 10px rgba(153, 0, 0, 0.5);
+  outline: none;
+}
+
+.label {
+  color: #990000;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.previewImage {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: auto;
+  max-width: 100%;
+}
+
+.select {
+  background-color: #fff;
+  color: #000;
+}
+
+.submitButton {
+  background-color: #990000;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #cc0000;
+  transform: scale(1.05);
+}
+
+.successMessage {
+  animation: slideIn 1s ease-out;
+  color: #4caf50;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.textarea {
+  height: 200px;
+}
+
+.title {
+  animation: fadeIn 1s ease-in;
+  color: #990000;
+  font-size: 3rem;
+  margin: 2rem 0;
+  text-align: left;
+}
